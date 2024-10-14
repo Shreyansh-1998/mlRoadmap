@@ -9,8 +9,8 @@ import sklearn.linear_model
 
 #loading the data
 
-oecd_df=pd.read_csv("lifesat\oecd_bli_2015.csv",thousands=',')
-gdp_df=pd.read_csv("lifesat\gdp_per_capita.csv",thousands=',',delimiter='\t',encoding='latin1',na_values="n/a")
+oecd_df=pd.read_csv("Datasets\lifesat\oecd_bli_2015.csv",thousands=',')
+gdp_df=pd.read_csv("Datasets\lifesat\gdp_per_capita.csv",thousands=',',delimiter='\t',encoding='latin1',na_values="n/a")
 
 
 
